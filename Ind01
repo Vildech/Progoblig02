@@ -1,0 +1,69 @@
+fun flag(country) :
+  if (country == "Norway") :
+    frame(
+      overlay-align("left", "top", square(65, "solid", "red"),
+  overlay-align("left", "bottom", square(65, "solid", "red"),
+    overlay-align("right", "top", rectangle(123, 65, "solid", "red"),
+      overlay-align("right", "bottom", rectangle(123, 65, "solid", "red"), 
+        overlay-align("left", "bottom", square(73, "solid", "white"),
+          overlay-align("left", "top", square(73, "solid", "white"), 
+            overlay-align("right", "top", rectangle(131, 73, "solid", "white"), 
+              overlay-align("right", "bottom", rectangle(131, 73, "solid", "white"),
+                      rectangle(220, 160, "solid", "blue"))))))))))
+  
+  else if (country == "Sweden") :
+    frame(
+    overlay-align("left", "top", square(65, "solid", "steel-blue"),
+  overlay-align("left", "bottom", square(65, "solid", "steel-blue"),
+    overlay-align("right", "top", rectangle(125, 65, "solid", "steel-blue"),
+      overlay-align("right", "bottom", rectangle(125, 65, "solid", "steel-blue"), 
+              rectangle(220, 160, "solid", "gold"))))))
+      
+      else if (country == "Finland") :
+      frame(
+overlay-align("left", "top", rectangle(50, 40, "solid", "white"),
+  overlay-align("left", "bottom", rectangle(50, 40, "solid", "white"),
+    overlay-align("right", "top", rectangle(100, 40, "solid", "white"),
+      overlay-align("right", "bottom", rectangle(100, 40, "solid", "white"), 
+                rectangle(180, 110, "solid", "dark-blue"))))))
+      
+  else if (country == "Denmark") :
+        frame(
+    overlay-align("left", "top", square(120, "solid", "red"),
+  overlay-align("left", "bottom", square(120, "solid", "red"),
+    overlay-align("right", "top", rectangle(180, 120, "solid", "red"),
+      overlay-align("right", "bottom", rectangle(180, 120, "solid", "red"), 
+              rectangle(340, 280, "solid", "white"))))))
+    
+  else if (country == "Iceland") :
+          frame(
+   overlay-align("left", "top", square(70, "solid", "blue"),
+      overlay-align("left", "bottom", square(70, "solid", "blue"),
+        overlay-align("right", "top", rectangle(140, 70, "solid", "blue"),
+          overlay-align("right", "bottom", rectangle(140, 70, "solid", "blue"), 
+            overlay-align("left", "bottom", square(80, "solid", "white"),
+              overlay-align("left", "top", square(80, "solid", "white"), 
+                overlay-align("right", "top", rectangle(150, 80, "solid", "white"), 
+                  overlay-align("right", "bottom", rectangle(150, 80, "solid", "white"),
+                      rectangle(250, 180, "solid", "red"))))))))))
+    
+  else if (country == "The-Faroe-Islands") :
+            frame(
+    overlay-align("left", "top", square(60, "solid", "white"),
+  overlay-align("left", "bottom", square(60, "solid", "white"),
+    overlay-align("right", "top", rectangle(120, 60, "solid", "white"),
+      overlay-align("right", "bottom", rectangle(120, 60, "solid", "white"), 
+        overlay-align("left", "bottom", square(70, "solid", "blue"),
+          overlay-align("left", "top", square(70, "solid", "blue"), 
+            overlay-align("right", "top", rectangle(130, 70, "solid", "blue"), 
+              overlay-align("right", "bottom", rectangle(130, 70, "solid", "blue"),
+                      rectangle(220, 160, "solid", "red"))))))))))
+  end
+end
+
+flag("Norway")
+flag("Sweden")
+flag("Finland")
+flag("Denmark")
+flag("Iceland")
+flag("The-Faroe-Islands")
